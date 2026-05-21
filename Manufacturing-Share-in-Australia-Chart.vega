@@ -1,0 +1,8 @@
+{"$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+"title": { "text": "The Declining Rate of Manufacturing in Australia" },
+"data": {"url": "manufacturing-share-of-total-employment.csv", "format": {"type": "csv"}},
+"mark": {"type": "line", "tooltip": true},
+"encoding": {"x": {"field": "Year", "type": "quantitative"},
+            "y": {"field": "Manufacturing employment as a proportion of total employment", "type": "quantitative",
+                            "title": "Manufacturing Employment Proportion"}}
+}

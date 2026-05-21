@@ -1,0 +1,7 @@
+{"$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+"title": { "text": "Labor Force Participation Rate in Australia by Year" },
+"data": {"url": "labor-participation-rate.csv", "format": {"type": "csv"}},
+"mark": {"type": "line", "tooltip": true},
+"encoding": {"x": {"field": "Year", "type": "quantitative"},
+            "y": {"field": "Labor force participation rate", "type": "quantitative"}}
+}

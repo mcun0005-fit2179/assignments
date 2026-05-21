@@ -1,0 +1,23 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {"url": "share-employment-agriculture-industry-services.csv", "format": {"type": "csv"}},
+  "title": "Pie Chart of Employment Type Share in Australia in 2025",
+  "transform": [
+    {
+    "filter": "datum.Year == 2025"
+    },
+    {"fold": ["Agriculture", "Industry", "Services"],
+      "as": ["Sector", "Value"]
+    }
+  ],
+ "mark": {"type": "arc", "tooltip": true},
+  "encoding": {
+    "theta": {"field": "Value", "type": "quantitative"},
+    "color": {"field": "Sector", "type": "nominal",
+      "scale": {
+        "domain": ["Agriculture", "Industry", "Services"],
+        "range": ["#017a01", "#7d7d7d", "#ff0000"]
+      }
+    }
+  }
+}

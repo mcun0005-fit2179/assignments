@@ -1,0 +1,17 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": { "text": "Share of Employment Type in Australia by Year" },
+  "data": {"url": "share-employment-agriculture-industry-services.csv", "format": {"type": "csv"}},
+  "transform": [
+    {
+      "fold": ["Agriculture", "Industry", "Services"],
+      "as": ["Sector", "Value"]
+    }
+  ], 
+ "mark": {"type": "bar", "tooltip": true},
+  "encoding": {
+    "x": {"field": "Year", "type": "ordinal"},
+    "y": {"field": "Value", "type": "quantitative", "title": "Sector Share (%)"},
+    "color": {"field": "Sector", "type": "nominal"}
+  }
+}

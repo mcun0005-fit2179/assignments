@@ -1,0 +1,7 @@
+{"$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+"title": { "text": "Female Unemployment Rate in Australia by Year" },
+"data": {"url": "unemployment-rate-women.csv", "format": {"type": "csv"}},
+"mark": {"type": "line", "tooltip": true},
+"encoding": {"x": {"field": "Year", "type": "quantitative"},
+            "y": {"field": "Female unemployment rate", "type": "quantitative"}}
+}
