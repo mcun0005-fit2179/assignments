@@ -9,6 +9,10 @@ p {
     text-align: center;
 }
 
+div {
+    display: block;
+    margin: auto;
+}
 #c-align {
     text-align: center;
 }
