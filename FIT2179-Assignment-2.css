@@ -1,12 +1,17 @@
 /* Selectors in HTML*/
 h1 {
     font-family: 'Fondamento';
+    text-align: center;
 }
 
 p {
     font-family: "Roboto";
+    text-align: center;
 }
 
+#c-align {
+    text-align: center;
+}
 /* idselect in HTML*/
 #idselect {
     color: green;
