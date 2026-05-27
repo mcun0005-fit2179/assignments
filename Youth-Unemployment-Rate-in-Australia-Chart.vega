@@ -1,7 +1,7 @@
 {"$schema": "https://vega.github.io/schema/vega-lite/v5.json",
 "title": { "text": "Youth Unemployment Rate in Australia by Year" },
 "data": {"url": "unemployment-rate-for-young-people.csv", "format": {"type": "csv"}},
-"mark": {"type": "line", "tooltip": true},
+"mark": {"type": "line", "color": "#ffa600","tooltip": true},
 "encoding": {"x": {"field": "Year", "type": "quantitative"},
             "y": {"field": "Unemployment rate, ages 15-24", "type": "quantitative",
                     "title": "Youth Unemployment Rate (%)"}}
