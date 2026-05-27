@@ -1,0 +1,182 @@
+Entity,Code,Year,Unemployment rate
+Afghanistan,AFG,2025,13.351
+Albania,ALB,2025,10.926
+Algeria,DZA,2025,11.633
+Angola,AGO,2025,14.108
+Argentina,ARG,2025,7.145
+Armenia,ARM,2025,12.871
+Australia,AUS,2025,4.09
+Austria,AUT,2025,5.582
+Azerbaijan,AZE,2025,5.457
+Bahamas,BHS,2025,9.207
+Bahrain,BHR,2025,1.102
+Bangladesh,BGD,2025,3.77
+Barbados,BRB,2025,6.524
+Belarus,BLR,2025,3.38
+Belgium,BEL,2025,5.906
+Belize,BLZ,2025,8.856
+Benin,BEN,2025,1.589
+Bhutan,BTN,2025,3.227
+Bolivia,BOL,2025,2.967
+Bosnia and Herz.,BIH,2025,11.037
+Botswana,BWA,2025,24.477
+Brazil,BRA,2025,5.97
+Brunei,BRN,2025,5.277
+Bulgaria,BGR,2025,3.536
+Burkina Faso,BFA,2025,3.477
+Burundi,BDI,2025,0.922
+Cambodia,KHM,2025,0.263
+Cameroon,CMR,2025,3.602
+Canada,CAN,2025,6.907
+Cape Verde,CPV,2025,11.939
+Central African Rep.,CAF,2025,6.251
+Chad,TCD,2025,1.057
+Chile,CHL,2025,8.974
+China,CHN,2025,4.615
+Colombia,COL,2025,8.29
+Comoros,COM,2025,3.819
+Congo,COG,2025,19.876
+Costa Rica,CRI,2025,6.843
+Cote d'Ivoire,CIV,2025,2.323
+Croatia,HRV,2025,5.002
+Cuba,CUB,2025,1.746
+Cyprus,CYP,2025,4.924
+Czechia,CZE,2025,2.825
+Dem. Rep. Congo,COD,2025,4.434
+Denmark,DNK,2025,5.529
+Djibouti,DJI,2025,26.015
+Dominican Rep.,DOM,2025,5.092
+East Timor,TLS,2025,1.592
+Ecuador,ECU,2025,3.308
+Egypt,EGY,2025,6.781
+El Salvador,SLV,2025,3.303
+Equatorial Guinea,GNQ,2025,8.337
+Eritrea,ERI,2025,5.978
+Estonia,EST,2025,8.313
+Eswatini,SWZ,2025,34.202
+Ethiopia,ETH,2025,3.323
+Fiji,FJI,2025,5.347
+Finland,FIN,2025,9.461
+France,FRA,2025,7.542
+Gabon,GAB,2025,20.154
+Gambia,GMB,2025,6.521
+Georgia,GEO,2025,12.097
+Germany,DEU,2025,3.711
+Ghana,GHA,2025,2.979
+Greece,GRC,2025,8.54
+Guatemala,GTM,2025,2.604
+Guinea,GIN,2025,5.163
+Guinea-Bissau,GNB,2025,2.673
+Guyana,GUY,2025,11.962
+Haiti,HTI,2025,14.944
+Honduras,HND,2025,4.92
+Hungary,HUN,2025,4.521
+Iceland,ISL,2025,3.625
+India,IND,2025,4.219
+Indonesia,IDN,2025,3.237
+Iran,IRN,2025,8.301
+Iraq,IRQ,2025,15.485
+Ireland,IRL,2025,4.632
+Israel,ISR,2025,3.489
+Italy,ITA,2025,6.391
+Jamaica,JAM,2025,3.286
+Japan,JPN,2025,2.451
+Jordan,JOR,2025,16.535
+Kazakhstan,KAZ,2025,4.771
+Kenya,KEN,2025,5.449
+Kuwait,KWT,2025,2.181
+Kyrgyzstan,KGZ,2025,3.526
+Laos,LAO,2025,1.187
+Latvia,LVA,2025,6.568
+Lebanon,LBN,2025,10.985,2023
+Lesotho,LSO,2025,16.315
+Liberia,LBR,2025,2.884
+Libya,LBY,2025,18.758
+Lithuania,LTU,2025,6.731
+Luxembourg,LUX,2025,6.343
+Madagascar,MDG,2025,3.041
+Malawi,MWI,2025,5.072
+Malaysia,MYS,2025,3.764
+Maldives,MDV,2025,4.514
+Mali,MLI,2025,2.831
+Malta,MLT,2025,2.896
+Mauritania,MRT,2025,10.319
+Mauritius,MUS,2025,5.635
+Mexico,MEX,2025,2.673
+Moldova,MDA,2025,1.505
+Mongolia,MNG,2025,5.233
+Montenegro,MNE,2025,13.572
+Morocco,MAR,2025,9
+Mozambique,MOZ,2025,6.628
+Myanmar,MMR,2025,3.047
+Namibia,NAM,2025,19.291
+Nepal,NPL,2025,10.465
+Netherlands,NLD,2025,3.874
+New Caledonia,NCL,2025,11.174
+New Zealand,NZL,2025,5.076
+Nicaragua,NIC,2025,5.04
+Niger,NER,2025,0.394
+Nigeria,NGA,2025,3.064
+North Korea,PRK,2025,3.545
+North Macedonia,MKD,2025,12.256
+Norway,NOR,2025,4.637
+Oman,OMN,2025,3.251
+Pakistan,PAK,2025,5.42
+Palestine,PSE,2025,24.42,2022
+Panama,PAN,2025,8.36
+Papua New Guinea,PNG,2025,2.571
+Paraguay,PRY,2025,4.803
+Peru,PER,2025,5.117
+Philippines,PHL,2025,2.235
+Poland,POL,2025,2.976
+Portugal,PRT,2025,6.164
+Puerto Rico,PRI,2025,5.991
+Qatar,QAT,2025,0.13
+Romania,ROU,2025,5.992
+Russia,RUS,2025,2.133
+Rwanda,RWA,2025,11.363
+Saint Lucia,LCA,2025,9.452
+Saint Vincent and the Grenadines,VCT,2025,18.003
+Samoa,WSM,2025,4.996
+Sao Tome and Principe,STP,2025,9.132
+Saudi Arabia,SAU,2025,3.038
+Senegal,SEN,2025,2.735
+Serbia,SRB,2025,7.123
+Sierra Leone,SLE,2025,3.15
+Singapore,SGP,2025,2.818
+Slovakia,SVK,2025,5.359
+Slovenia,SVN,2025,3.175
+Solomon Islands,SLB,2025,1.431
+Somalia,SOM,2025,18.948
+South Africa,ZAF,2025,32.391
+South Korea,KOR,2025,2.683
+South Sudan,SSD,2025,12.374,2023
+Spain,ESP,2025,10.376
+Sri Lanka,LKA,2025,4.005
+Sudan,SDN,2025,7.53,2022
+Suriname,SUR,2025,7.834
+Sweden,SWE,2025,8.694
+Switzerland,CHE,2025,4.873
+Syria,SYR,2025,13.569
+Tajikistan,TJK,2025,6.931
+Tanzania,TZA,2025,1.572
+Thailand,THA,2025,0.781
+Togo,TGO,2025,1.995
+Tonga,TON,2025,2.008
+Trinidad and Tobago,TTO,2025,3.329
+Tunisia,TUN,2025,15.108
+Turkey,TUR,2025,8.52
+Turkmenistan,TKM,2025,4.267
+Uganda,UGA,2025,2.746
+Ukraine,UKR,2025,9.834,2021
+United Arab Emirates,ARE,2025,2.174
+United Kingdom,GBR,2025,4.746
+United States of America,USA,2025,4.198
+Uruguay,URY,2025,7.516
+Uzbekistan,UZB,2025,4.622
+Vanuatu,VUT,2025,5.073
+Venezuela,VEN,2025,5.307
+Vietnam,VNM,2025,1.523
+Yemen,YEM,2025,17.322
+Zambia,ZMB,2025,5.918
+Zimbabwe,ZWE,2025,9.293

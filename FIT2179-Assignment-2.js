@@ -47,3 +47,13 @@ var vg_a = "Labor-Force-Participation-Age-in-Australia-Chart.vega";
 vegaEmbed("#visA", vg_a).then(function(result) {
 
 }).catch(console.error);
+
+var vg_b = "MapTest.vega";
+vegaEmbed("#visB", vg_b).then(function(result) {
+
+}).catch(console.error);
+
+var vg_c = "Map.vega";
+vegaEmbed("#visC", vg_c).then(function(result) {
+
+}).catch(console.error);
