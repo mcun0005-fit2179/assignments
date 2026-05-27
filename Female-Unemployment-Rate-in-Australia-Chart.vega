@@ -4,5 +4,5 @@
 "mark": {"type": "line", "tooltip": true},
 "encoding": {"x": {"field": "Year", "type": "quantitative"},
             "y": {"field": "Female unemployment rate", "type": "quantitative",
-            "title": "Youth Unemployment Rate (%)"}}
+                    "title": "Female Unemployment Rate (%)"}}
 }
