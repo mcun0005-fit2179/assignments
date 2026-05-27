@@ -42,3 +42,8 @@ var vg_9 = "Manufacturing-Share-in-Australia-Chart.vega";
 vegaEmbed("#vis9", vg_9).then(function(result) {
 
 }).catch(console.error);
+
+var vg_10 = "Labor-Force-Participation-Age-in-Australia-Chart.vega";
+vegaEmbed("#vis10", vg_10).then(function(result) {
+
+}).catch(console.error);
