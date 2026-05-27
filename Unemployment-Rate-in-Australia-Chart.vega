@@ -1,5 +1,5 @@
 {"$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-"title": { "text": "Unemployment Rate in Australia by Year" },
+"title": { "text": "Unemployment Rate in Australia" },
 "data": {"url": "unemployment-rate.csv", "format": {"type": "csv"}},
 "mark": {"type": "line", "color": "#ff0000", "tooltip": true},
 "encoding": {"x": {"field": "Year", "type": "quantitative"},

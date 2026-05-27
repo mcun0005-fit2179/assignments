@@ -1,5 +1,5 @@
 {"$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-"title": { "text": "Employment Rate in Australia by Year" },
+"title": { "text": "Employment Rate in Australia" },
 "data": {"url": "employment-to-population-ratio.csv", "format": {"type": "csv"}},
 "mark": {"type": "line", "color": "#8000ff","tooltip": true},
 "encoding": {"x": {"field": "Year", "type": "quantitative"},

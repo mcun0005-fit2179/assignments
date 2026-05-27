@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": { "text": "Share of Employment Type in Australia by Year" },
+  "title": { "text": "Share of Employment Type in Australia" },
   "data": {"url": "share-employment-agriculture-industry-services.csv", "format": {"type": "csv"}},
   "transform": [
     {
