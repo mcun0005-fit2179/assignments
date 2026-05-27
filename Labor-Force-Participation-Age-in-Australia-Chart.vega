@@ -16,11 +16,10 @@
       "scale": {"padding": 0.5}
     },
     "y": {
-      "aggregate": "median",
       "field": "Value",
       "type": "quantitative",
       "title": "Rate of Participation"
     },
     "color": {"field": "Age Bracket", "type": "nominal"}
   }
-}
+}   
