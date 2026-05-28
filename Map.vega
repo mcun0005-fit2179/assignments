@@ -13,7 +13,10 @@
 "lookup": "properties.NAME",
 "from": {
 "data": {
-"url": "https://raw.githubusercontent.com/mcun0005-fit2179/assignments/main/unemployment-rate-map-25.csv"
+"url": "https://raw.githubusercontent.com/mcun0005-fit2179/assignments/main/unemployment-rate-map-25.csv",
+ "format": {
+    "type": "csv"
+  }
 },
 "key": "Entity",
 "fields": ["Unemployment"]
@@ -32,7 +35,7 @@
 "scale": {
 "type": "threshold",
 "domain": [1, 5, 10, 15, 20, 25, 30, 35],
-"range": ["#ffffff", "#ffcccc", "#ff9999", "#ff6666", "#ff3333", "#ff0000"]
+"range": ["#ffffff", "#ffdddd", "#ffbbbb", "#ff9999", "#ff7777", "#ff5555", "#ff3333"]
 }
 },
 "tooltip": [
