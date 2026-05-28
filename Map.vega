@@ -1,5 +1,5 @@
 {
-"$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+"$schema": "https://vega.github.io/schema/vega-lite/v5.json",
 "title": "Unemployment Rates Around the World",
 "width": 800,
 "height": 400,
