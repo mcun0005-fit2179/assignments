@@ -5,7 +5,7 @@
 "height": 400,
 "projection": {"type": "equalEarth"},
 "data": {
-"url": "data/ne_110m_admin_0_countries.json",
+"url": "ne_110m_admin_0_countries.json",
 "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
 },
 "transform": [
@@ -14,7 +14,7 @@
 
     "from": {
       "data": {
-        "url": "data/unemployment-rate-map-25.csv",
+        "url": "unemployment-rate-map-25.csv",
 
         "format": {
           "type": "csv"
