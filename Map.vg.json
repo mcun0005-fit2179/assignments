@@ -30,6 +30,9 @@
   {
     "calculate": "toNumber(datum.Unemployment)",
     "as": "rate"
+  },
+  {
+  "filter": "isValid(datum.rate) && isFinite(datum.rate)"
   }
 ],
 "mark": {"type": "geoshape", "stroke": "black", "strokeWidth": 0.5},
