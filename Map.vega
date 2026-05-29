@@ -38,9 +38,8 @@
 "field": "rate",
 "type": "quantitative",
 "scale": {
-"type": "reds",
-"domain": [1, 5, 10, 15, 20, 25, 30, 35],
-"range": ["#ffffff", "#ffdddd", "#ffbbbb", "#ff9999", "#ff7777", "#ff5555", "#ff3333", "#ff1111", "#ff0000"]
+"scheme": "reds",
+"domain": [1, 35]
 }
 },
 "tooltip": [
