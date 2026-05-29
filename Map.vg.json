@@ -10,7 +10,7 @@
 },
 "transform": [
   {
-    "lookup": "properties.ADMO_A3",
+    "lookup": "properties.ADM0_A3",
 
     "from": {
       "data": {
