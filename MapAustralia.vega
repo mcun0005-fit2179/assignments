@@ -1,0 +1,44 @@
+{
+"$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+"title": "Map of Unemployment Rates by State in March 2026",
+"width": 800,
+"height": 400,
+"projection": {"type": "mercator"},
+"data": {
+"url": "STE_2021_AUST_GDA2020.json",
+"format": {"type": "topojson", "feature": "STE_2021_AUST_GDA2020"}
+},
+
+"transform": [
+  {
+    "lookup": "properties.STE_NAME21",
+    "from": {
+      "data": {
+        "url": "ABS-March2026-Trend-wide.csv"
+      },
+      "key": "State",
+      "fields": ["Unemploymentrate"]
+    }
+  },
+  {
+    "calculate": "datum.Unemploymentrate",
+    "as": "selectedValue"
+  }
+],
+"mark": {"type": "geoshape", "stroke": "black", "strokeWidth": 0.5},
+"encoding": {
+"color": {
+  "field": "selectedValue",
+  "type": "quantitative",
+  "scale": {
+"scheme": "reds",
+"domain": [3, 5]
+}
+},
+"tooltip": [
+{"field": "properties.STE_NAME21", "type": "nominal", "title":
+"State"},
+{"field": "selectedValue", "type": "quantitative"}
+]
+}
+}
