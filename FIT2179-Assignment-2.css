@@ -13,6 +13,10 @@ p {
     text-align: center;
 }
 
+body {
+    padding: 44px;
+}
+
 #c-align {
     text-align: center;
 }
@@ -35,4 +39,3 @@ p {
 .y-unemployment-text {
     color: #ffa600;
 }
-
