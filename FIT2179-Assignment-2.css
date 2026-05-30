@@ -25,15 +25,14 @@ p {
     color: #8000ff;
 }
 
-.unemployment {
+.unemployment-text {
     color: #ff0000;
 }
 
-.female-unemployment {
+.fem-unemployment-text {
     color: #ff00bf;
 }
-.youth-unemployment {
+.y-unemployment-rate {
     color: #ffa600;
 }
-
 
