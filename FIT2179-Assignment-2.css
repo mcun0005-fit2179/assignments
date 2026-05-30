@@ -16,12 +16,13 @@ p {
 #c-align {
     text-align: center;
 }
-/* idselect in HTML*/
-#idselect {
-    color: green;
+
+.laborpart-text {
+    color: #0000ff;
 }
 
-/* class-select in HTML*/
-.class-select {
-    color: blue;
+.employment-text {
+    color: #8000ff;
 }
+
+
