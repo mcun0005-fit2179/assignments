@@ -14,12 +14,22 @@ h3 {
     padding: 30px;
 }
 
+h4{
+    font-size: 8px;
+}
+
 p {
     font-family: "Roboto";
     text-align: center;
 }
 
+.italik {
+    font-style: italic;
+}
 
+.thicc {
+    font-weight: bold;
+}
 #c-align {
     text-align: center;
 }
