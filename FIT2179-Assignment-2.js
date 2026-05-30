@@ -53,7 +53,7 @@ vegaEmbed("#visB", vg_b).then(function(result) {
 
 }).catch(console.error);
 
-var vg_c = "Map.vega";
+var vg_c = "Map.vg.json";
 vegaEmbed("#visC", vg_c).then(function(result) {
 
 }).catch(console.error);
