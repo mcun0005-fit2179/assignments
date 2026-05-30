@@ -38,7 +38,7 @@
 "tooltip": [
 {"field": "properties.STE_NAME21", "type": "nominal", "title":
 "State"},
-{"field": "selectedValue", "type": "quantitative"}
+{"field": "selectedValue", "type": "quantitative", "title": "Unemployment Rate"}
 ]
 }
 }
