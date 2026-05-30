@@ -1,3 +1,4 @@
+/* Selectors in HTML*/
 h1 {
     font-family: 'Fondamento';
     text-align: center;
@@ -12,11 +13,6 @@ p {
     text-align: center;
 }
 
-#vis {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
 #c-align {
     text-align: center;
 }
