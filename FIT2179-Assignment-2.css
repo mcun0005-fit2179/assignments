@@ -1,10 +1,12 @@
 /* Selectors in HTML*/
 h1 {
     font-family: 'Fondamento';
+    padding: 44px;
     text-align: center;
 }
 
 h2 {
+    padding: 22px;
     text-align: center;
 }
 
@@ -13,9 +15,6 @@ p {
     text-align: center;
 }
 
-body {
-    padding: 44px;
-}
 
 #c-align {
     text-align: center;
