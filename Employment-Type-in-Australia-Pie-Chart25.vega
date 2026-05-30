@@ -12,11 +12,11 @@
   ],
  "mark": {"type": "arc", "tooltip": true},
   "encoding": {
-    "theta": {"field": "Value", "type": "quantitative"},
+    "theta": {"field": "Value", "type": "quantitative", "title": "Share (%)"},
     "color": {"field": "Sector", "type": "nominal",
       "scale": {
         "domain": ["Agriculture", "Industry", "Services"],
-        "range": ["#017a01", "#7d7d7d", "#ff0000"]
+        "range": ["#017a01", "#7d7d7d", "#aa0000"]
       }
     }
   }
