@@ -1,0 +1,65 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Labour Market Indicators by State: March 2026",
+  "width": 600,
+  "height": 350,
+
+  "data": {
+    "url": "ABS-March2026-Trend-long.csv"
+  },
+
+  "params": [
+    {
+      "name": "metric",
+      "value": "Employment to population ratio",
+      "bind": {
+        "input": "select",
+        "options": [
+          "Employment to population ratio",
+          "Unemployment rate",
+          "Underemployment rate",
+          "Participation rate"
+        ],
+        "name": "Metric: "
+      }
+    }
+  ],
+
+  "transform": [
+    {
+      "filter": "datum['March 2026 - Trend'] === metric"
+    }
+  ],
+
+  "mark": {
+    "type": "bar"
+  },
+
+  "encoding": {
+    "x": {
+      "field": "State",
+      "type": "nominal",
+      "sort": "-y",
+      "axis": {
+        "labelAngle": -45
+      }
+    },
+
+    "y": {
+      "field": "Value",
+      "type": "quantitative",
+      "title": "Value"
+    },
+
+    "color": {
+      "field": "State",
+      "type": "nominal",
+      "legend": null
+    },
+    
+    "tooltip": [
+      { "field": "State", "type": "nominal" },
+      { "field": "Value", "type": "quantitative" }
+    ]
+  }
+}
