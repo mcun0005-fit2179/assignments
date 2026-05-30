@@ -48,12 +48,12 @@ vegaEmbed("#visA", vg_a).then(function(result) {
 
 }).catch(console.error);
 
-var vg_b = "MapTest.vega";
+var vg_b = "Employment-Rate-by-State-Australia.vega";
 vegaEmbed("#visB", vg_b).then(function(result) {
 
 }).catch(console.error);
 
-var vg_c = "Map.vg.json";
+var vg_c = "Map.vega";
 vegaEmbed("#visC", vg_c).then(function(result) {
 
 }).catch(console.error);
