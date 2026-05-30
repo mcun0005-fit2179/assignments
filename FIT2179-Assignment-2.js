@@ -57,3 +57,8 @@ var vg_c = "Map.vg.json";
 vegaEmbed("#visC", vg_c).then(function(result) {
 
 }).catch(console.error);
+
+var vg_d = "MapAustralia.vg.json";
+vegaEmbed("#visD", vg_d).then(function(result) {
+
+}).catch(console.error);
