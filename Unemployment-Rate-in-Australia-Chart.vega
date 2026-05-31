@@ -2,7 +2,7 @@
 "title": { "text": "Unemployment Rate in Australia" },
 "data": {"url": "unemployment-rate.csv", "format": {"type": "csv"}},
 "mark": {"type": "line", "color": "#ff0000", "tooltip": true},
-"encoding": {"x": {"field": "Year", "type": "quantitative"},
+"encoding": {"x": {"field": "Year", "type": "quantitative", "axis": {"format": "d"}},
             "y": {"field": "Unemployment rate", "type": "quantitative",
                     "title": "Unemployment Rate (%)"}}
 }
