@@ -3,6 +3,6 @@
 "data": {"url": "unemployment-rate.csv", "format": {"type": "csv"}},
 "mark": {"type": "line", "color": "#ff0000", "tooltip": true},
 "encoding": {"x": {"field": "Year", "type": "quantitative", "axis": {"format": "d"}},
-            "y": {"field": "Unemployment rate", "type": "quantitative",
+            "y": {"field": "Unemployment rate", "type": "quantitative", "scale": {"domain": [0,20]},
                     "title": "Unemployment Rate (%)"}}
 }
