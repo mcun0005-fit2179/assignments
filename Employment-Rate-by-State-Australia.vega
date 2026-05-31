@@ -23,7 +23,7 @@
       "labels": ["Employment Rate",
                   "Unemployment Rate",
                   "Underemployment Rate",
-                  "Labor Force Participation Rate"],
+                  "Labour Force Participation Rate"],
         "name": "Indicator: "
       }
     }
