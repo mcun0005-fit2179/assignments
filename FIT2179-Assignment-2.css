@@ -64,3 +64,7 @@ p {
 .services-text {
     color: #aa0000;
 }
+
+#visC .vega-bind input[type="range"] {
+    width: min(800px, 80vw);
+}
