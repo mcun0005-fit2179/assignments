@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "data": {"url": "labor-force-participation-rate-by-age.csv", "format": {"type": "csv"}},
-  "title": "Change in Labor Force Participation for Different Age Groups",
+  "title": "Change in Labour Force Participation for Different Age Groups",
   "mark": {"type": "line", "tooltip": true},
   "transform": [
     {
