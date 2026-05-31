@@ -2,7 +2,7 @@
 "title": { "text": "Labor Force Participation Rate in Australia" },
 "data": {"url": "labor-participation-rate.csv", "format": {"type": "csv"}},
 "mark": {"type": "line", "color": "#0000ff","tooltip": true},
-"encoding": {"x": {"field": "Year", "type": "ordinal"},
+"encoding": {"x": {"field": "Year", "type": "quantitative", "axis": {"format": "d"}},
             "y": {"field": "Labor force participation rate", "type": "quantitative",
         "title": "Labor Force Participation Rate (%)"}}
 }
