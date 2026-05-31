@@ -3,6 +3,6 @@
 "data": {"url": "employment-to-population-ratio.csv", "format": {"type": "csv"}},
 "mark": {"type": "line", "color": "#8000ff","tooltip": true},
 "encoding": {"x": {"field": "Year", "type": "quantitative", "axis": {"format": "d"}},
-            "y": {"field": "Employment rate", "type": "quantitative",
+            "y": {"field": "Employment rate", "type": "quantitative", "scale": {"domain": [0,20]},
         "title": "Employment Rate (%)"}}
 }
