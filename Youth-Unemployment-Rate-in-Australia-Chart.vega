@@ -2,7 +2,7 @@
 "title": { "text": "Youth Unemployment Rate in Australia" },
 "data": {"url": "unemployment-rate-for-young-people.csv", "format": {"type": "csv"}},
 "mark": {"type": "line", "color": "#ffa600","tooltip": true},
-"encoding": {"x": {"field": "Year", "type": "quantitative"},
+"encoding": {"x": {"field": "Year", "type": "quantitative", "axis": {"format": "d"}},
             "y": {"field": "Unemployment rate, ages 15-24", "type": "quantitative",
                     "title": "Youth Unemployment Rate (%)"}}
 }
