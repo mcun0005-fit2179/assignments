@@ -43,7 +43,7 @@
     "x": {
       "field": "State",
       "type": "nominal",
-      "sort": "-y",
+      "sort": ["New South Wales", "Victoria", "Queensland", "Western Australia", "South Australia", "Tasmania", "Australian Capital Territory", "Northern Territory"],
       "axis": {
         "labelAngle": -45
       }
