@@ -20,6 +20,10 @@
           "Underemployment rate",
           "Participation rate"
         ],
+      "labels": ["Employment Rate",
+                  "Unemployment Rate",
+                  "Underemployment Rate",
+                  "Labor Force Participation Rate"],
         "name": "Metric: "
       }
     }
@@ -48,7 +52,8 @@
     "y": {
       "field": "Value",
       "type": "quantitative",
-      "title": "Value"
+      "title": "Percentage (%)",
+      "scale": {"domain": [0,80]}
     },
 
     "color": {
