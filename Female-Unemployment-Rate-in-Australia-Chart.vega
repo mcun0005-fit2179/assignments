@@ -3,6 +3,6 @@
 "data": {"url": "unemployment-rate-women.csv", "format": {"type": "csv"}},
 "mark": {"type": "line", "color": "#ff00bf","tooltip": true},
 "encoding": {"x": {"field": "Year", "type": "quantitative", "axis": {"format": "d"}},
-            "y": {"field": "Female unemployment rate", "type": "quantitative",
+            "y": {"field": "Female unemployment rate", "type": "quantitative", "scale": {"domain": [0,20]},
                     "title": "Female Unemployment Rate (%)"}}
 }
