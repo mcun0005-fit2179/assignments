@@ -2,7 +2,7 @@
 "title": { "text": "Employment Rate in Australia" },
 "data": {"url": "employment-to-population-ratio.csv", "format": {"type": "csv"}},
 "mark": {"type": "line", "color": "#8000ff","tooltip": true},
-"encoding": {"x": {"field": "Year", "type": "quantitative"},
+"encoding": {"x": {"field": "Year", "type": "quantitative", "axis": {"format": "d"}},
             "y": {"field": "Employment rate", "type": "quantitative",
         "title": "Employment Rate (%)"}}
 }
